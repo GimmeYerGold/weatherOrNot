@@ -9,9 +9,57 @@ body {
 	box-sizing: border-box;
 }
 
-#container {
-	font-size: 64px;
-	color: pink;
-
+.buttons {
+	font-family: serif;
+	width: 15%;
+	font-size: 24px;
+	color: salmon;
+	background: aliceblue;
+	border: 5px solid skyblue;
+	margin: 10px;
+	box-shadow: 5px 5px lightgray;
 }
 
+.hourContainer, .dayContainer {
+	width: 23%;
+	font-size: 30px;
+	font-family: serif;
+	color: gray;
+	text-align: center;
+	border: 10px skyblue solid;
+	margin: 10px;
+	padding: 10px;
+	background: aliceblue;
+	box-shadow: 10px 10px lightgray;
+	display: inline-block;
+	vertical-align: top;
+	min-height: 406px;
+}
+
+.currentContainer {
+	width: 23%;
+	font-size: 30px;
+	font-family: serif;
+	color: gray;
+	text-align: center;
+	border: 10px skyblue solid;
+	margin: auto;
+	padding: 10px;
+	background: aliceblue;
+	box-shadow: 10px 10px lightgray;
+	vertical-align: top;
+	transform: translateY(50%);
+}
+
+.tempMax {
+	color: tomato;
+}
+
+.tempMin {
+	color: teal;
+}
+
+#buttonContainer {
+	text-align: center;
+	margin: auto;
+}
